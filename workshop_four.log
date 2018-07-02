@@ -1,0 +1,99 @@
+('x type: ', <tf.Tensor 'Const:0' shape=(4, 1) dtype=float32>)
+('y_true type: ', <tf.Tensor 'Const_1:0' shape=(4, 1) dtype=float32>)
+('y_pred type: ', <tf.Tensor 'dense/BiasAdd:0' shape=(4, 1) dtype=float32>)
+2018-06-28 22:23:07.610220: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+[[4.2102747]
+ [1.4034249]
+ [7.017124 ]
+ [9.823974 ]]
+470.31226
+('loss type:', <tf.Tensor 'mean_squared_error/value:0' shape=() dtype=float32>)
+('optimizer type:', <tensorflow.python.training.gradient_descent.GradientDescentOptimizer object at 0x7fd1c2ff0210>)
+('train type:', <tf.Operation 'GradientDescent' type=NoOp>)
+
+
+
+Iteration: 0, loss = 470.312255859
+Iteration: 10, loss = 43.723072052
+Iteration: 20, loss = 39.0503082275
+Iteration: 30, loss = 35.1651535034
+Iteration: 40, loss = 31.9348430634
+Iteration: 50, loss = 29.2490062714
+Iteration: 60, loss = 27.0158691406
+Iteration: 70, loss = 25.1591396332
+Iteration: 80, loss = 23.6153583527
+Iteration: 90, loss = 22.33177948
+Iteration: 100, loss = 21.2645530701
+Iteration: 110, loss = 20.377204895
+Iteration: 120, loss = 19.6394233704
+Iteration: 130, loss = 19.0259914398
+Iteration: 140, loss = 18.5159511566
+Iteration: 150, loss = 18.0918865204
+Iteration: 160, loss = 17.7392959595
+Iteration: 170, loss = 17.4461517334
+Iteration: 180, loss = 17.2023849487
+Iteration: 190, loss = 16.9997215271
+Traing over!!
+
+Final predictions
+[[13.788806 ]
+ [-1.4916697]
+ [29.069279 ]
+ [44.34976  ]]
+
+Actual values
+[[ 9.]
+ [ 1.]
+ [25.]
+ [49.]]
+
+('x type: ', <tf.Tensor 'Const:0' shape=(4, 1) dtype=float32>)
+('y_true type: ', <tf.Tensor 'Const_1:0' shape=(4, 1) dtype=float32>)
+('y_pred type: ', <tf.Tensor 'dense/BiasAdd:0' shape=(4, 1) dtype=float32>)
+2018-06-28 22:23:07.610220: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+[[-2.7154827]
+ [-1.3577414]
+ [-4.073224 ]
+ [-5.4309654]]
+84.558205
+('loss type:', <tf.Tensor 'mean_squared_error/value:0' shape=() dtype=float32>)
+('optimizer type:', <tensorflow.python.training.gradient_descent.GradientDescentOptimizer object at 0x7f67300b6210>)
+('train type:', <tf.Operation 'GradientDescent' type=NoOp>)
+
+
+
+Iteration: 0, loss = 84.5582046509
+Iteration: 10, loss = 0.18005502224
+Iteration: 20, loss = 0.137632906437
+Iteration: 30, loss = 0.122048839927
+Iteration: 40, loss = 0.108234994113
+Iteration: 50, loss = 0.0959847718477
+Iteration: 60, loss = 0.0851209387183
+Iteration: 70, loss = 0.0754867643118
+Iteration: 80, loss = 0.0669429600239
+Iteration: 90, loss = 0.0593661703169
+Iteration: 100, loss = 0.0526469498873
+Iteration: 110, loss = 0.0466882139444
+Iteration: 120, loss = 0.0414039194584
+Iteration: 130, loss = 0.036717761308
+Iteration: 140, loss = 0.0325619243085
+Iteration: 150, loss = 0.0288764964789
+Iteration: 160, loss = 0.0256081745028
+Iteration: 170, loss = 0.0227097980678
+Iteration: 180, loss = 0.0201394110918
+Iteration: 190, loss = 0.0178599860519
+Traing over!!
+
+Final predictions
+[[4.0984697]
+ [2.203211 ]
+ [5.993728 ]
+ [7.888987 ]]
+
+Actual values
+[[4.]
+ [2.]
+ [6.]
+ [8.]]
+(tensorflow) ubuntu16@ubuntu16-VirtualBox:~/Desktop/tensorflow_workshop/01$ 
+
